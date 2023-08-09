@@ -26,25 +26,13 @@
         <!--Storyboard Based View Controller-->
         <scene sceneID="dRp-ne-rfJ">
             <objects>
-                <viewController id="eS8-2G-MnD" customClass="StoryboardBasedViewController" customModule="LoadViewControllers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StoryboardBasedViewController" id="eS8-2G-MnD" customClass="StoryboardBasedViewController" customModule="LoadViewControllers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NUD-eZ-bIn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0Q-cB-VrR">
-                                <rect key="frame" x="87" y="145" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="OqD-qB-INa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="label" destination="J0Q-cB-VrR" id="STK-FQ-sMK"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="frQ-48-JFl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

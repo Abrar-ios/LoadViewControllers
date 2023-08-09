@@ -16,6 +16,7 @@
 		167C9B942A8409FF003E1894 /* LoadViewControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B932A8409FF003E1894 /* LoadViewControllersUITests.swift */; };
 		167C9B962A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B952A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift */; };
 		167C9BA52A840C24003E1894 /* StoryboardBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */; };
+		167C9BA72A840F58003E1894 /* StoryboardBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		167C9B932A8409FF003E1894 /* LoadViewControllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersUITests.swift; sourceTree = "<group>"; };
 		167C9B952A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewController.swift; sourceTree = "<group>"; };
+		167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		167C9B882A8409FF003E1894 /* LoadViewControllersTests */ = {
 			isa = PBXGroup;
 			children = (
+				167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */,
 			);
 			path = LoadViewControllersTests;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 					};
 					167C9B842A8409FF003E1894 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = 167C9B6E2A8409FE003E1894;
 					};
 					167C9B8E2A8409FF003E1894 = {
@@ -269,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167C9BA72A840F58003E1894 /* StoryboardBasedViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,14 +494,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abrarulhaq.LoadViewControllers.LoadViewControllersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoadViewControllers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoadViewControllers";
@@ -508,10 +520,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abrarulhaq.LoadViewControllers.LoadViewControllersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
