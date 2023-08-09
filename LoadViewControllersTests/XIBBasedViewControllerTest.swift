@@ -10,7 +10,9 @@ import XCTest
 
 final class XIBBasedViewControllerTests: XCTestCase {
     
-    func test_zero(){
-        XCTFail("There is no test implemented yet in XIBBasedViewControllerTests")
+    func test_loadingXIBBasedViewController(){
+        let sut = XIBBasedViewController()
+        sut.loadViewIfNeeded()
+        XCTAssertNotNil(sut.label)
     }
 }
