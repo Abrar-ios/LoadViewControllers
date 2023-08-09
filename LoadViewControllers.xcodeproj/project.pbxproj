@@ -16,6 +16,7 @@
 		167C9B8A2A8409FF003E1894 /* LoadViewControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B892A8409FF003E1894 /* LoadViewControllersTests.swift */; };
 		167C9B942A8409FF003E1894 /* LoadViewControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B932A8409FF003E1894 /* LoadViewControllersUITests.swift */; };
 		167C9B962A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B952A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift */; };
+		167C9BA52A840C24003E1894 /* StoryboardBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		167C9B8F2A8409FF003E1894 /* LoadViewControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadViewControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		167C9B932A8409FF003E1894 /* LoadViewControllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersUITests.swift; sourceTree = "<group>"; };
 		167C9B952A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				167C9B7B2A8409FF003E1894 /* Assets.xcassets */,
 				167C9B7D2A8409FF003E1894 /* LaunchScreen.storyboard */,
 				167C9B802A8409FF003E1894 /* Info.plist */,
+				167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */,
 			);
 			path = LoadViewControllers;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167C9B772A8409FE003E1894 /* ViewController.swift in Sources */,
+				167C9BA52A840C24003E1894 /* StoryboardBasedViewController.swift in Sources */,
 				167C9B732A8409FE003E1894 /* AppDelegate.swift in Sources */,
 				167C9B752A8409FE003E1894 /* SceneDelegate.swift in Sources */,
 			);
