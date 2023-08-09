@@ -9,7 +9,9 @@ import XCTest
 @testable import LoadViewControllers
 
 final class CodeBasedViewControllerTest: XCTestCase {
-    func test_zero(){
-        XCTFail("There is no tests implemented in CodeBasedViewControllerTest yet")
+    func test_loadingCodeBasedViewController(){
+        let sut = CodeBasedViewController(dataString: "Amaan")
+        sut.loadViewIfNeeded()
+        XCTAssertNotNil(sut)
     }
 }
