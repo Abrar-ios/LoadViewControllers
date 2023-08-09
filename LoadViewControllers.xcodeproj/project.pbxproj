@@ -17,6 +17,8 @@
 		167C9B962A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B952A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift */; };
 		167C9BA52A840C24003E1894 /* StoryboardBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */; };
 		167C9BA72A840F58003E1894 /* StoryboardBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */; };
+		167C9BAA2A84190F003E1894 /* XIBBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA82A84190F003E1894 /* XIBBasedViewController.swift */; };
+		167C9BAB2A84190F003E1894 /* XIBBasedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167C9BA92A84190F003E1894 /* XIBBasedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		167C9B952A8409FF003E1894 /* LoadViewControllersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewControllersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewController.swift; sourceTree = "<group>"; };
 		167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewControllerTests.swift; sourceTree = "<group>"; };
+		167C9BA82A84190F003E1894 /* XIBBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedViewController.swift; sourceTree = "<group>"; };
+		167C9BA92A84190F003E1894 /* XIBBasedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBBasedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				167C9B7D2A8409FF003E1894 /* LaunchScreen.storyboard */,
 				167C9B802A8409FF003E1894 /* Info.plist */,
 				167C9BA42A840C24003E1894 /* StoryboardBasedViewController.swift */,
+				167C9BA82A84190F003E1894 /* XIBBasedViewController.swift */,
+				167C9BA92A84190F003E1894 /* XIBBasedViewController.xib */,
 			);
 			path = LoadViewControllers;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167C9BAB2A84190F003E1894 /* XIBBasedViewController.xib in Resources */,
 				167C9B7F2A8409FF003E1894 /* LaunchScreen.storyboard in Resources */,
 				167C9B7C2A8409FF003E1894 /* Assets.xcassets in Resources */,
 				167C9B7A2A8409FE003E1894 /* Main.storyboard in Resources */,
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				167C9B772A8409FE003E1894 /* ViewController.swift in Sources */,
+				167C9BAA2A84190F003E1894 /* XIBBasedViewController.swift in Sources */,
 				167C9BA52A840C24003E1894 /* StoryboardBasedViewController.swift in Sources */,
 				167C9B732A8409FE003E1894 /* AppDelegate.swift in Sources */,
 				167C9B752A8409FE003E1894 /* SceneDelegate.swift in Sources */,
