@@ -19,6 +19,7 @@
 		167C9BA72A840F58003E1894 /* StoryboardBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */; };
 		167C9BAA2A84190F003E1894 /* XIBBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BA82A84190F003E1894 /* XIBBasedViewController.swift */; };
 		167C9BAB2A84190F003E1894 /* XIBBasedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167C9BA92A84190F003E1894 /* XIBBasedViewController.xib */; };
+		167C9BAD2A841B2B003E1894 /* XIBBasedViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C9BAC2A841B2B003E1894 /* XIBBasedViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBasedViewControllerTests.swift; sourceTree = "<group>"; };
 		167C9BA82A84190F003E1894 /* XIBBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedViewController.swift; sourceTree = "<group>"; };
 		167C9BA92A84190F003E1894 /* XIBBasedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBBasedViewController.xib; sourceTree = "<group>"; };
+		167C9BAC2A841B2B003E1894 /* XIBBasedViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				167C9BA62A840F58003E1894 /* StoryboardBasedViewControllerTests.swift */,
+				167C9BAC2A841B2B003E1894 /* XIBBasedViewControllerTest.swift */,
 			);
 			path = LoadViewControllersTests;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167C9BAD2A841B2B003E1894 /* XIBBasedViewControllerTest.swift in Sources */,
 				167C9BA72A840F58003E1894 /* StoryboardBasedViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
